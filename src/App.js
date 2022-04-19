@@ -1,12 +1,13 @@
 import "./App.css";
-import Navbar from "./components/Navbar/Navbar";
-import Header from "./components/Header/Header";
+import { Navbar, Header, Contact, Experience } from "./components/index";
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Navbar />
+      <Experience />
+      <Contact />
     </div>
   );
 }
